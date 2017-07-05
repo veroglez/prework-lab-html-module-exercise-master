@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,400i,600,600i,700,700i');
+
+/*General*/
+*{
+  margin:0;
+  padding:0;
+}
+a:hover{
+  transition: 0.3s all;
+}
+body{
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #225d7e;
+}
+h1,h2,h3,h4{color: white;}
+h1{
+  font-size: 48px;
+  padding: 20px 0;
+  font-weight: 500;
+}
+h2{
+  font-size: 36px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+h3{
+  font-size: 34px;
+  padding: 20px 0;
+  font-weight: 300;
+}
+.col{
+  float:left;
+}
+.col-3{
+  width: 20%;
+}
+.col-middle{
+  margin: 0 10%;
+}
+.col-left{
+  margin-left: 10%;
+}
+.col-right{
+  margin-right: 10%;
+}
+.clearfix{
+  clear:both;
+}
+.container{padding: 120px 0;}
+
+/*menu*/
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+  font-size:14px;
+  font-weight: 300;
+  height: 30px;
+}
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left{
+  width: 40%;
+  float: left;
+  padding-left: 20px;
+}
+.heart{
+  padding-right: 20px;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  width: 50%;
+  text-align: right;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-links li a:hover{
+  color: white;
+}
+.menu{
+  display: -webkit-flex;
+  display: flex;
+  padding: 20px;
+  background: #225d7e;
+  color: white;
+}
+.logo{
+  width: 125px;
+}
+.logo img{
+  width: 125px;
+}
+.search{
+  flex: 1;
+  padding: 0 20px;
+}
+.search form{
+  display: -webkit-flex;
+  display: flex;
+}
+.search input, .search button{
+  background: rgb(31, 82, 111);
+  border:1px solid rgba(255,255,255,0.2);
+  font-size:16px;
+  color: white;
+}
+.search input{height: 40px; flex:1;padding: 5px 5px 5px 15px;}
+.search button{width: 50px;}
+.search img{width: 30px;}
+
+.info-user{
+  width: auto;
+  color: rgba(255,255,255,0.8);
+}
+.info-user img{
+  width: 45px;
+}
+.info-user li{
+  list-style: none;
+  display: inline;
+  padding-right: 5px;
+}
+.info-user-text{
+  padding: 15px 0;
+}
+.info-user a{
+  color:rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.info-user a:hover{
+  color: white;
+}
+
+/*header*/
+header{
+  height: 445px;
+  background: url('images/city-scape.svg') no-repeat;
+  background-size: cover;
+}
+.build{
+  width: 45%;
+  padding: 0 45% 0 10%;
+}
+.build p{font-size: 18px; color: white;}
+.build .button-link{
+  background:rgb(240, 146, 51);
+}
+.build .button-link:hover{
+  background:#e97e11;
+}
+.button-link{
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+/*section 1*/
+#collaboration{
+  background: #273547;
+  color: white;
+}
+.collaboration-img{
+  width: 45%;
+  padding-left: 10%;
+}
+.collaboration-text{
+  width: 35%;
+  padding-left: 5%;
+}
+#collaboration li{
+  line-height: 2.5em;
+}
+#collaboration ul {
+   list-style: none;
+}
+#collaboration ul li:before {
+   content: "•";
+   font-size: 20px; /* or whatever */
+   padding-right: 20px;
+}
+#collaboration .button-link{
+  background: rgb(203, 56, 55);
+}
+#collaboration .button-link:hover{
+  background: #ac2e2d;
+}
+#collaboration a{
+  color: white;
+  text-decoration: none;
+}
+#collaboration a:hover{
+  color: white;
+}
+#collaboration .link{
+  font-weight: 400;
+}
+#collaboration .link:hover{
+  text-decoration: underline;
+}
+
+/*section 2*/
+#whatis{
+  background: url('images/forklift.svg') no-repeat;
+  background-size: cover;
+  height: 275px;
+  position: relative;
+}
+.whatis-text{
+  width: 30%;
+  color: white;
+  padding-left: 10%;
+  position: absolute;
+}
+#whatis .button-link{
+  background: rgb(49, 68, 88);
+}
+#whatis .button-link:hover{
+  background: #253544;
+}
+
+/*section 3*/
+#make{
+  background: white;
+  text-align: center;
+  padding: 50px 0;
+}
+#make h3, #make h2{
+  color: rgb(83, 88, 98);
+}
+#make p{
+  color: rgb(135, 145, 156);
+}
+.make-logos{margin: 0 auto;}
+.make-logos .col{padding: 30px 0;}
+#make a{color:rgb(208, 74, 73); text-decoration: none;}
+#make a:hover{ text-decoration: underline;}
